@@ -1,0 +1,12 @@
+{
+  "name": "my-awesome-plugin",
+  "version": "1.0.0",
+  "scripts": {
+    "wp-env": "wp-env",
+    "test:unit": "vendor/bin/phpunit --configuration phpunit.unit.xml",
+    "test:integration": "wp-env run tests-cli --env-cwd='wp-content/plugins/my-awesome-plugin' vendor/bin/phpunit --configuration=phpunit.xml.dist"
+  },
+  "devDependencies": {
+    "@wordpress/env": "^10.0.0"
+  }
+}
