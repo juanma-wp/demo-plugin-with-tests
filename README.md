@@ -1,5 +1,7 @@
 # My Awesome Plugin
 
+[![Tests](https://github.com/juanma-wp/demo-plugin-with-tests/actions/workflows/tests.yml/badge.svg)](https://github.com/juanma-wp/demo-plugin-with-tests/actions/workflows/tests.yml)
+
 A minimal WordPress plugin showcasing unit and integration testing setup.
 
 ## Requirements
